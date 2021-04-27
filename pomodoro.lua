@@ -1,21 +1,21 @@
-obs           = obslua
-source_name   = ""
-total_seconds = 0
-work_seconds  = 0
-break_seconds = 0
-cur_seconds   = 0
-cycle					= 0
-last_text     = ""
-finish_text   = ""
-cycle_text		=	1
-break_text 		= ""
-work_text			=	""
-activated     = false
-etapes 				= 1
-text_add 			=	""
-bigbreak_text = ""
+obs              = obslua
+source_name      = ""
+total_seconds    = 0
+work_seconds     = 0
+break_seconds    = 0
+cur_seconds      = 0
+cycle	         = 0
+last_text        = ""
+finish_text      = ""
+cycle_text       = 1
+break_text       = ""
+work_text        = ""
+activated        = false
+etapes 	         = 1
+text_add         = ""
+bigbreak_text 	 = ""
 bigbreak_seconds = 0
-hotkey_id     = obs.OBS_INVALID_HOTKEY_ID
+hotkey_id        = obs.OBS_INVALID_HOTKEY_ID
 
 function set_time_text()
 	local seconds       = math.floor(cur_seconds % 60)
@@ -105,9 +105,9 @@ function activate(activating)
 	end
 	activated = activating
 	if activating then
-		cycle					= 0
-		cycle_text		=	1
-		etapes 				= 1
+		cycle = 0
+		cycle_text = 1
+		etapes = 1
 		bigbreak_seconds = 0
 		cur_seconds = work_seconds
 		cycle = num_rep - 1
