@@ -16,3 +16,8 @@
 - Go to "Add scripts" at the bottom left and look for "pomodoro.lua" where you had downloaded it. 
 
 ![image](https://user-images.githubusercontent.com/48654473/116235024-a2334c00-a75d-11eb-930c-b84a9180907c.png)
+
+
+- Finally in "Text source" add the "Text (GDI+)" created previously.
+
+![image](https://user-images.githubusercontent.com/48654473/116236521-71ecad00-a75f-11eb-80c2-43dca048f2ca.png)
