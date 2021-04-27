@@ -1,4 +1,4 @@
-## Pomodoro Timer
+##Pomodoro timer for obs
 
 
 - To start, add a "Text (GDI+) source, name it as you want.
