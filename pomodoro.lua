@@ -190,7 +190,7 @@ end
 
 
 function script_description()
-	return "Test Pomodoro TImer.\n\nMade by Bov"
+	return "Pomodoro Timer.\n \nBy Bov"
 end
 
 
