@@ -190,7 +190,7 @@ end
 
 
 function script_description()
-	return "Pomodoro Timer.\n \nBy Bov"
+	return "Pomodoro Timer.\nAll parameters are editable, otherwise there is the default value.\n\nBy Bov"
 end
 
 
